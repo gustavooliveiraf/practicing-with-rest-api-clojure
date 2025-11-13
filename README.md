@@ -11,7 +11,7 @@
 ### Second step: Handling collections
   Return Hello World 10 times!
 
-### Third step: Aggregating collections
-  loading...⏰
+### Third step: Working with params
+  You need to update the route "/" for "/repetitions=10" and repeat Hello World 10 times!
 
 ...
