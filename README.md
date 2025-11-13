@@ -14,4 +14,6 @@
 ### Third step: Working with params
   You need to update the route "/" for "/repetitions=10" and repeat Hello World 10 times!
 
+### Fourth step: Working with params
+  You need to update the route "/" for "/repetitions=10" and repeat Hello World 10 times and each element of the array with the index, like ["Hello World 0" "Hello World 1" ...]
 ...
