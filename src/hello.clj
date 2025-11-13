@@ -2,30 +2,15 @@
     (:require [io.pedestal.http :as http]
      [io.pedestal.http.route :as route]))
 
-(def unmentionables #{"YHWH"
-                      "Voldemort"
-                      "Mxyzptlk"
-                      "Rumplestiltskin"
-                      "曹操"})
-
 (defn ok [body]
       {:status 200 :body body})
 
 (defn not-found []
       {:status 404 :body "Not found\n"})
 
-(defn greeting-for [nm]
-      (cond
-       (unmentionables nm) nil
-       (empty? nm) "Hello, world!\n"
-       :else (str "Hello, " nm "\n")))
-
 (defn respond-hello [request]
-      (let [nm (get-in request [:query-params :name])
-            resp (greeting-for nm)]
-           (if resp
-             (ok resp)
-             (not-found))))
+      (let [x (get-in request [:query-params :x])]
+           (ok (str (+ 1 (Integer/parseInt x))))))
 
 (def routes
   (route/expand-routes
