@@ -1,7 +1,15 @@
-# hello-world-clojure
+### Step zero
 
-## Getting Started
+🏗️ Install [Leiningen](https://leiningen.org/#install)
 
-0. Install [Leiningen](https://leiningen.org/#install)
+### First step: Hello World!
 1. Start the application: `lein run`
 2. Go to [localhost:8080](http://localhost:8080/) to see: `Hello World!`
+
+### Second step: Handling collections
+  loading...⏰
+
+### Third step: Aggregating collections
+  loading...⏰
+
+...
