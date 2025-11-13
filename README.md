@@ -9,7 +9,7 @@
 2. Go to [localhost:8080](http://localhost:8080/) to see: `Hello World!`
 
 ### Second step: Handling collections
-  loading...⏰
+  Return Hello World 10 times!
 
 ### Third step: Aggregating collections
   loading...⏰
